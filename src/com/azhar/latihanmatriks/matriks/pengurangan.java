@@ -11,28 +11,30 @@ public class pengurangan {
         mat[0] = new double[4];
         mat[1] = new double[4];
 
-        System.out.print("Input matriks 1x1: ");
+        System.out.print("Input matriks Pertama: baris 1 Kolom 1: ");
         mat[0][0] = input.nextDouble();
 
-        System.out.print("Input matriks 1x2: ");
+        System.out.print("Input matriks Pertama: baris 1 Kolom 2: ");
         mat[0][1] = input.nextDouble();
 
-        System.out.print("Input matriks 1x3: ");
+        System.out.print("Input matriks Pertama: baris 2 Kolom 1: ");
         mat[0][2] = input.nextDouble();
 
-        System.out.print("Input matriks 1x4: ");
+        System.out.print("Input matriks Pertama: baris 2 Kolom 2: ");
         mat[0][3] = input.nextDouble();
 
-        System.out.print("Input matriks 2x1: ");
+        System.out.println("==================");
+
+        System.out.print("Input matriks kedua: baris 1 Kolom 1 ");
         mat[1][0] = input.nextDouble();
 
-        System.out.print("Input matriks 2x2: ");
+        System.out.print("Input matriks kedua: baris 1 Kolom 2 ");
         mat[1][1] = input.nextDouble();
 
-        System.out.print("Input matriks 2x3: ");
+        System.out.print("Input matriks kedua: baris 2 Kolom 1 ");
         mat[1][2] = input.nextDouble();
 
-        System.out.print("Input matriks 2x4: ");
+        System.out.print("Input matriks kedua: baris 2 kolom 2 ");
         mat[1][3] = input.nextDouble();
     }
     public void kurangMatriks() {
